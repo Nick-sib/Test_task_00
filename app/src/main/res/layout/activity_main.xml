@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"/>
+
+<!--androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_GENRE_TITLE"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:background="@color/colorTitle"
+        android:text="Жанры"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_Genres"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="4dp"
+        android:scrollbars="vertical"
+        android:background="@drawable/bg_genres"
+        app:layout_constraintTop_toBottomOf="@+id/tv_GENRE_TITLE" />
+
+    <TextView
+        android:id="@+id/tv_FILM_TITLE"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorTitle"
+        android:padding="5dp"
+        android:text="Фильмы"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/rv_Genres" />
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_Films"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="232dp"
+        android:padding="4dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_FILM_TITLE"
+
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout-->
